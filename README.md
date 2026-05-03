@@ -36,6 +36,7 @@ node server.js
 - `\n` による改行
 - TXT 読み込み
 - CSV 読み込み / 保存
+    - `sagabon-ise.csv`, `sagabon-ise.txt` を読み込んでみてください
 - 異体字と連字候補をまとめたグリフ選択
 - Chrome / Firefox からの印刷
 
@@ -68,5 +69,3 @@ char,ligatureChoice,variantGlyph
 - `ligatureChoice`: 選んだ連字候補キー
 - `variantGlyph`: 選んだ表示グリフキー
 
-旧CSVとの後方互換処理は入っていません。  
-この README の仕様を現行仕様としてください。
